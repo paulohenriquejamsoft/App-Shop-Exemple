@@ -5,7 +5,7 @@ using Shop.Models;
 
 namespace Shop.Controllers
 {   
-    [Route("v1/categories")]
+    [Route("v1")]
     public class HomeController:ControllerBase
     {
         [HttpGet]
