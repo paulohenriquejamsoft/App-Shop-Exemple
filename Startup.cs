@@ -69,6 +69,8 @@ namespace Shop
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseDeveloperExceptionPage();
+
             app.UseHttpsRedirection();
 
             app.UseSwagger();
